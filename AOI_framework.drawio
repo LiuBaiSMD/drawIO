@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-27T08:49:49.779Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="3W9A3NirDOa34IWakBdk" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-27T08:50:57.037Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="CiSEgktTTz202hxZZRn3" version="15.5.9" type="github">
   <diagram id="7__NHR40UmP4EpxoBmli" name="Page-1">
     <mxGraphModel dx="1950" dy="1244" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -203,64 +203,64 @@
           <mxGeometry x="440" y="894" width="16" height="14" as="geometry" />
         </mxCell>
         <mxCell id="J2Jdq49523zMRXXccdFL-78" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;初始化&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="-4" y="1071" width="58" height="15" as="geometry" />
+          <mxGeometry x="-166" y="1072" width="58" height="15" as="geometry" />
         </mxCell>
         <mxCell id="J2Jdq49523zMRXXccdFL-80" value="&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;Head&lt;/span&gt;&lt;br style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;(-999,-999)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="373" y="1127" width="88" height="40" as="geometry" />
+          <mxGeometry x="211" y="1128" width="88" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J2Jdq49523zMRXXccdFL-81" value="&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;Tail&lt;/span&gt;&lt;br style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;(999,999)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="373" y="1214" width="88" height="40" as="geometry" />
+          <mxGeometry x="211" y="1215" width="88" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J2Jdq49523zMRXXccdFL-82" value="" style="endArrow=classic;html=1;rounded=0;fontSize=8;fontColor=#FFFFFF;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="J2Jdq49523zMRXXccdFL-80" target="J2Jdq49523zMRXXccdFL-81">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="812" y="1116" as="sourcePoint" />
-            <mxPoint x="862" y="1066" as="targetPoint" />
+            <mxPoint x="650" y="1117" as="sourcePoint" />
+            <mxPoint x="700" y="1067" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J2Jdq49523zMRXXccdFL-83" value="&lt;font color=&quot;#000000&quot;&gt;nextz&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1180" width="39" height="14" as="geometry" />
+          <mxGeometry x="188" y="1181" width="39" height="14" as="geometry" />
         </mxCell>
         <mxCell id="J2Jdq49523zMRXXccdFL-84" value="" style="endArrow=classic;html=1;rounded=0;fontSize=8;fontColor=#000000;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="J2Jdq49523zMRXXccdFL-81" target="J2Jdq49523zMRXXccdFL-80">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="812" y="1116" as="sourcePoint" />
-            <mxPoint x="862" y="1066" as="targetPoint" />
+            <mxPoint x="650" y="1117" as="sourcePoint" />
+            <mxPoint x="700" y="1067" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J2Jdq49523zMRXXccdFL-85" value="prevz" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="437" y="1184" width="40" height="14" as="geometry" />
+          <mxGeometry x="275" y="1185" width="40" height="14" as="geometry" />
         </mxCell>
         <mxCell id="J2Jdq49523zMRXXccdFL-86" value="z轴链表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="388" y="1270" width="52" height="14" as="geometry" />
+          <mxGeometry x="226" y="1271" width="52" height="14" as="geometry" />
         </mxCell>
         <mxCell id="J2Jdq49523zMRXXccdFL-87" value="&lt;font color=&quot;#ffffff&quot;&gt;Head&lt;br&gt;(-999,-999)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="17" y="1171" width="88" height="40" as="geometry" />
+          <mxGeometry x="-145" y="1172" width="88" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J2Jdq49523zMRXXccdFL-88" value="&lt;font color=&quot;#ffffff&quot;&gt;Tail&lt;br&gt;(999,999)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="174" y="1171" width="88" height="40" as="geometry" />
+          <mxGeometry x="12" y="1172" width="88" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J2Jdq49523zMRXXccdFL-90" value="&lt;font color=&quot;#000000&quot;&gt;nextx&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="123" y="1209" width="39" height="14" as="geometry" />
+          <mxGeometry x="-39" y="1210" width="39" height="14" as="geometry" />
         </mxCell>
         <mxCell id="J2Jdq49523zMRXXccdFL-92" value="prevx" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="119" y="1153" width="40" height="14" as="geometry" />
+          <mxGeometry x="-43" y="1154" width="40" height="14" as="geometry" />
         </mxCell>
         <mxCell id="J2Jdq49523zMRXXccdFL-93" value="x轴链表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="122" y="1245" width="52" height="14" as="geometry" />
+          <mxGeometry x="-40" y="1246" width="52" height="14" as="geometry" />
         </mxCell>
         <mxCell id="J2Jdq49523zMRXXccdFL-95" value="" style="endArrow=classic;html=1;rounded=0;fontSize=8;fontColor=#000000;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="J2Jdq49523zMRXXccdFL-88" target="J2Jdq49523zMRXXccdFL-87">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="292" y="1116" as="sourcePoint" />
-            <mxPoint x="342" y="1066" as="targetPoint" />
+            <mxPoint x="130" y="1117" as="sourcePoint" />
+            <mxPoint x="180" y="1067" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J2Jdq49523zMRXXccdFL-96" value="" style="endArrow=classic;html=1;rounded=0;fontSize=8;fontColor=#000000;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="J2Jdq49523zMRXXccdFL-87" target="J2Jdq49523zMRXXccdFL-88">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="184" y="1191" as="sourcePoint" />
-            <mxPoint x="115" y="1191" as="targetPoint" />
+            <mxPoint x="22" y="1192" as="sourcePoint" />
+            <mxPoint x="-47" y="1192" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J2Jdq49523zMRXXccdFL-97" value="&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;添加一个node1(2,2)节点，加到尾节点之前&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="-198.5" y="1371" width="314" height="15" as="geometry" />
+        <mxCell id="J2Jdq49523zMRXXccdFL-97" value="&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;添加一个node1(2,2)节点，加到尾节点之前，&lt;br&gt;节点node1需要移动到自己x、z轴对应的位置&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="-206.5" y="1366" width="330" height="26" as="geometry" />
         </mxCell>
         <mxCell id="J2Jdq49523zMRXXccdFL-98" value="&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;Head&lt;/span&gt;&lt;br style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;(-999,-999)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="553.5" y="1432" width="88" height="40" as="geometry" />
@@ -394,8 +394,8 @@
         <mxCell id="J2Jdq49523zMRXXccdFL-141" value="y轴" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="665" y="115" width="28" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="J2Jdq49523zMRXXccdFL-142" value="&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;添加一个node2(1,1)节点，加到尾节点之前&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="-201" y="1752" width="314" height="15" as="geometry" />
+        <mxCell id="J2Jdq49523zMRXXccdFL-142" value="&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;添加一个node2(1,1)节点，加到尾节点之前&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;节点node2需要移动到自己x、z轴对应的位置&lt;/b&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="-209" y="1747" width="330" height="26" as="geometry" />
         </mxCell>
         <mxCell id="J2Jdq49523zMRXXccdFL-143" value="&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;Head&lt;/span&gt;&lt;br style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;(-999,-999)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="551" y="1813" width="88" height="40" as="geometry" />
