@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-06T02:14:55.307Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="iD6Cuxe3YYcwH3gBrb5H" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-06T02:43:42.877Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="P6nIZiaX-3kAd2wdrkU_" version="20.2.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="990" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="990" dy="543" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,7 +40,7 @@
         <mxCell id="c57LuR6uQ035VPGmdFLY-40" value="register aoi observer(entity)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry x="102" y="287" width="164" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" target="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="175" y="160.0000000000001" as="sourcePoint" />
           </mxGeometry>
@@ -164,8 +164,69 @@
         <mxCell id="c57LuR6uQ035VPGmdFLY-50" value="客户端与slg_avatar通信" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="657" y="437" width="145" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="c57LuR6uQ035VPGmdFLY-53" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1.avatar与slg_avatar通信&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.avatar与slg_avatar数据同步（例如道具使用、士兵）&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="150" y="656" width="309" height="41" as="geometry" />
+        <mxCell id="c57LuR6uQ035VPGmdFLY-53" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1.avatar与slg_avatar通信&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;slg_avatar创建通信的entity，并且与avatar_service中对应的avatar通信，并通过avatar转发与客户端进行通信&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="120" y="22" width="595" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="c57LuR6uQ035VPGmdFLY-54" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;span style=&quot;&quot;&gt;2.slg_avatar同步数据至avatar&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;（例如道具增加、士兵数量）&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;通过对应的版本号，进行数据同步&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;avatar与slg_avatar各记录一个版本号，&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="118" y="703" width="333" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c57LuR6uQ035VPGmdFLY-56" value="avatar" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="147" y="800" width="194" height="518" as="geometry" />
+        </mxCell>
+        <mxCell id="c57LuR6uQ035VPGmdFLY-57" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="c57LuR6uQ035VPGmdFLY-56">
+          <mxGeometry x="92" y="59.75" width="10" height="350.5" as="geometry" />
+        </mxCell>
+        <mxCell id="c57LuR6uQ035VPGmdFLY-65" value="" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="c57LuR6uQ035VPGmdFLY-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120.69" y="120.50000000000011" as="sourcePoint" />
+            <mxPoint x="319.69" y="120.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c57LuR6uQ035VPGmdFLY-66" value="update_data(entity)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="c57LuR6uQ035VPGmdFLY-56">
+          <mxGeometry x="140.69" y="98.5" width="121" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c57LuR6uQ035VPGmdFLY-68" value="slg_update_to_avatar(entity)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;labelBackgroundColor=none;" edge="1" parent="c57LuR6uQ035VPGmdFLY-56">
+          <mxGeometry x="0.0971" relative="1" as="geometry">
+            <mxPoint x="323.69" y="151.5" as="sourcePoint" />
+            <mxPoint x="117.69" y="151.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="236.76" y="151.5" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c57LuR6uQ035VPGmdFLY-82" value="1.设置数据（仅设置version大的数据）&lt;br&gt;2.设置version为最大的update_version" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="c57LuR6uQ035VPGmdFLY-56">
+          <mxGeometry x="-106" y="132" width="223" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="c57LuR6uQ035VPGmdFLY-88" value="通知slg_avatar更新完毕" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="c57LuR6uQ035VPGmdFLY-56">
+          <mxGeometry x="-63" y="217" width="145" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c57LuR6uQ035VPGmdFLY-63" value="slg_world" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="357.19" y="798" width="242.69" height="514.5" as="geometry" />
+        </mxCell>
+        <mxCell id="c57LuR6uQ035VPGmdFLY-64" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="c57LuR6uQ035VPGmdFLY-63">
+          <mxGeometry x="116.34" y="62" width="10" height="344.5" as="geometry" />
+        </mxCell>
+        <mxCell id="c57LuR6uQ035VPGmdFLY-83" value="" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="c57LuR6uQ035VPGmdFLY-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-97.19000000000017" y="221.99999999999977" as="sourcePoint" />
+            <mxPoint x="101.81000000000006" y="221.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c57LuR6uQ035VPGmdFLY-84" value="update_version(entity)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="c57LuR6uQ035VPGmdFLY-63">
+          <mxGeometry x="-79.19" y="190" width="137" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c57LuR6uQ035VPGmdFLY-78" value="发送需要同步到的数据，&lt;br&gt;并携带数据version&lt;br&gt;version（初始为0,，&lt;br&gt;后续由slg_avatar同步的版本最大值）" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="76" y="854" width="217" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c57LuR6uQ035VPGmdFLY-79" value="&lt;span style=&quot;background-color: initial;&quot;&gt;1.如需同步数据，自增update_version,用update_version作为key，&lt;br&gt;需要同步的数据作为value，存入map中&lt;br&gt;2.发送组织好的map格式数据&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="489" y="904" width="370" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="c57LuR6uQ035VPGmdFLY-87" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1.删除不需要同步的数据&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="494" y="1008" width="148" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c57LuR6uQ035VPGmdFLY-89" value="3.slg_world操作串行化&lt;br&gt;使用lbtactor.WorkerActor，将所有操作串行化" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="38" y="1371" width="258" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
