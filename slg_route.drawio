@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-11-02T14:55:52.000Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.0.8" etag="ftVwixEgI559sNyvOTAu" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-02T15:35:37.313Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ZCWxbKme9ojZE7Dzq1A-" version="22.0.8" type="github">
   <diagram name="第 1 页" id="f0IW8Co--XW5ajZkcLuv">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1115" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JTvDVS_nAlTPV6Fr2Wrx-2" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="279" y="415" width="493" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="JTvDVS_nAlTPV6Fr2Wrx-3" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;worker1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="478" y="358" width="103" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="JTvDVS_nAlTPV6Fr2Wrx-4" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="279" y="546" width="493" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="JTvDVS_nAlTPV6Fr2Wrx-5" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;worker2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="478" y="489" width="103" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="JTvDVS_nAlTPV6Fr2Wrx-6" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="279" y="680" width="493" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="JTvDVS_nAlTPV6Fr2Wrx-7" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;worker3&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="478" y="623" width="103" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="JTvDVS_nAlTPV6Fr2Wrx-8" value="&lt;font style=&quot;font-size: 72px;&quot;&gt;.&lt;font style=&quot;&quot;&gt;.&lt;/font&gt;..&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="478" y="738" width="98" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="JTvDVS_nAlTPV6Fr2Wrx-12" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="244" y="350" width="543" height="483" as="geometry" />
+        </mxCell>
+        <mxCell id="JTvDVS_nAlTPV6Fr2Wrx-13" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="104" y="553" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JTvDVS_nAlTPV6Fr2Wrx-14" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;寻路请求&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="79" y="504" width="162" height="55" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
